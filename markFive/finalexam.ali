@@ -1,0 +1,175 @@
+V "GNAT Lib v2020"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_PROTECTED_TYPES
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV MAX_SELECT_ALTERNATIVES=1
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U finalexam%b		finalexam.adb		36942de7 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W tools%s		tools.adb		tools.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-calend.ads		20200819050642 474d9720 ada.calendar%s
+D a-caldel.ads		20200819050642 9f20b83d ada.calendar.delays%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050644 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200819050644 bb51c45a ada.numerics%s
+D a-nudira.ads		20200819050644 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20200819050644 0bfd6ec4 ada.numerics.discrete_random%b
+D a-reatim.ads		20200819050642 0240fc73 ada.real_time%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D finalexam.adb		20210515065020 2ca877ba finalexam%b
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-c.ads		20200819050646 c624fa43 interfaces.c%s
+D i-cstrin.ads		20200819050646 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D system.ads		20200819050648 32a08138 system%s
+D s-atacco.ads		20200819050646 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20200819050646 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20200819050646 0b705ca5 system.concat_3%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-finroo.ads		20200819050646 4ff27390 system.finalization_root%s
+D s-imgint.ads		20200819050646 02dbe0c2 system.img_int%s
+D s-imguns.ads		20200819050646 9ff43cf7 system.img_uns%s
+D s-multip.ads		20200819050646 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20200819050642 97504df8 system.os_interface%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-rannum.ads		20200819050648 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20200819050648 5f999925 system.random_numbers%b
+D s-ransee.ads		20200819050648 01a57b33 system.random_seed%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200819050648 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200819050642 601f6b72 system.task_info%s
+D s-taspri.ads		20200819050642 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20200819050642 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20200819050642 88fba9ad system.tasking%s
+D s-taprob.ads		20200819050642 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200819050642 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20200819050642 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20200819050642 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-valuns.ads		20200819050648 35067db9 system.val_uns%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+D s-win32.ads		20200819050648 15ac53fb system.win32%s
+D tools.ads		20210501194442 5d71cd7d tools%s
+D tools.adb		20210501194500 d3a9bb6c tools%b
+G a e
+G c Z b b [finalexam standard 3 11 none]
+G r p none [finalexam standard 3 11 none] [puts tools__output 4 17 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 5r13 6r19 6r40 6r58 7r19 7r40 7r58 52r26 52r44 59r25
+. 59r46 59r64 85r26 85r44
+X 2 a-calend.ads
+36K13*Calendar 409e17 15|1w10 5r17 6r23 6r44 6r62 7r23 7r44 7r62 52r30 52r48
+. 59r29 59r50 59r68 85r30 85r48
+42I9*Time<222I9> 15|5r26 6r32 7r32 59r38
+56V13*Clock{42I9} 15|6s71 7s71 52s57 59s77 85s57
+103V14*"+"{42I9} 15|6s54 7s54 52s40 59s60 85s40
+120V14*"<"{boolean} 15|42s26
+222I9 Time_Rep<long_long_integer>
+X 9 a-nudira.adb
+53V16 Random[33|83]{integer} 34|393b13[56|18[15|39]]
+65V16 Random[33|83]{integer} 34|393b13[56|18[15|64]]
+X 15 finalexam.adb
+3U11*finalExam 3b11 108l5 108t14
+4P9 pstring(string) 27r30
+6i4 closing_time{2|42I9} 42r28 106r16
+7i4 current_time{2|42I9} 42r13 52m10
+9w14 MedicalOfficer 16b20 25l8 25t22 49r19 107r4
+10U19 increase 17b19 20l13 20t21 49s34
+11U19 getNumber 21b19 24l13 24t22 107s19
+13i9 num_of_served{natural} 19r13 19r30 23r60
+27T15 patient 27d23 57b17 94l8 94t15 95r31 103r28
+27p23 name{4P9} 76r34 90r30
+29T14 hospital 31l8 31e16 33r24 36b14 56l8 56t16 99r27
+30Y13 vaccinate 45b23 50l20 50t29 74s42
+33P9 phos(29T14) 34r32
+34a4 phospital(33P9) 74r16 99m7
+37i7 patients{natural} 44r18 47m19 47r31
+38I15 opening_time{positive} 39r60
+39K15 time_generator[55|9] 41r28
+58b10 vaccinated{boolean} 75m16 89r14
+59i10 waiting_time{2|42I9} 79r28 85m10
+60K18 get_vaccine[55|9] 68r28 82r33
+61b10 wants_vaccinated{boolean} 68m7 72r13 82m13
+62i10 trials{natural} 71r13 84m10 84r20
+63I18 Index{positive} 64r62 65r27
+64K18 Ind_Generator[55|9] 69r25
+65i10 hospital_index{63I18} 69m7 74r26
+95P12 ppatient(27T15) 96r37
+96a7 ptpatients(95P12) 103m7
+98i8 i{integer} 99r17
+102i8 i{integer} 103r18 103r75
+X 16 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 33 s-rannum.ads
+75V13*Random{16|74M9} 34|221i21
+76V13*Random{16|77M9} 34|221i21
+X 39 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 55 tools.ads
+1K9*tools 15|1w20 23r13 39r37 46r19 60r37 64r39 76r16 90r12 93r30 55|14e10
+3w14*Output 15|23r19 46r25 76r22 90r18 93r36
+4U17 Puts 15|23s26 46s32 76s29 90s25 93s43
+9k12*Random_Generator 15|39r43 60r43 64r45 55|12e24
+11V19 GetRandom{integer} 15|41s43[39] 68s40[60] 69s39[64] 82s45[60]
+
